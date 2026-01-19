@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f6f7fb;
+    color: #111;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin: 0 0 12px 0;
+    color: #1f4e79;
+    letter-spacing: 0.3px;
+}
+
+h2{
+    margin: 18px 0 8px 0;
+    color: #1f4e79;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #cfe0f3;
+}
+
+p{
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #ffffff;
+    border: 1px solid #dde2ea;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+nav{
+    border: 1px solid #dde2ea;
+    border-left: 6px solid #1f4e79;
+    padding: 12px;
+    margin-bottom: 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+nav h2{
+    margin: 0 0 10px 0;
+    border: none;
+    padding: 0;
+    color: #111;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 8px 0;
+}
+
+nav li{
+    margin: 6px 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1f4e79;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+body > ul{
+    max-width: 900px;
+    background-color: #ffffff;
+    border: 1px solid #dde2ea;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+body > ul li{
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+img{
+    border: 1px solid #dde2ea;
+    padding: 6px;
+    background-color: #ffffff;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 3px solid #cc0000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+caption{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+th, td{
+    border: 1px solid #cc0000;
+    padding: 10px 8px;
+    text-align: center;
+}
+
+th{
+    background-color: #ffe5e5;
+    font-weight: bold;
+}
+
+tbody td:first-child{
+    font-weight: bold;
+    background-color: #fff7f7;
+}
+
+td.no-class{
+    background-color: #c8f7c5;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) td{
+    background-color: #fafafa;
+}
+
+tbody tr:nth-child(even) td.no-class{
+    background-color: #b9f0b6;
+}
+
+tbody tr:hover td{
+    background-color: #f2f6ff;
+}
+
+tbody tr:hover td.no-class{
+    background-color: #b9f0b6;
+}
